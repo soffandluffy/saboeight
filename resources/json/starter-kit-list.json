@@ -1,0 +1,21 @@
+{
+  "listItems": [
+    {
+      "url": "/admin",
+      "name": "Dashboard",
+      "icon": "settings_input_svideo",
+    },
+    {
+      "url": "page-blank",
+      "name": "Blank Page",
+      "icon": "pages",
+      "category": "Blank Page"
+    },
+    {
+      "url": "page-collapse",
+      "name": "Page Collapse",
+      "icon": "pages",
+      "category": "Collapse Page"
+    }
+  ]
+}

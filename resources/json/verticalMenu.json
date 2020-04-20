@@ -1,0 +1,52 @@
+{
+  "menu": [
+    {
+      "url": "admin/",
+      "name": "Dashboard",
+      "slug": "Dashboard",
+      "class": "waves-effect waves-cyan",
+      "icon": "settings_input_svideo",
+      "i18n": "Dashboard"
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Blog",
+      "i18n": "Blog",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "blog",
+      "icon": "library_books",
+      "submenu": [
+
+        {
+          "url": "/admin/blog/index",
+          "name": "Article",
+          "i18n": "Article",
+          "slug": "article"
+        },
+        {
+          "url": "admin/article-category/index",
+          "name": "Article Category",
+          "i18n": "Article Category",
+          "slug": "article-category"
+        }
+      ]
+    },
+    {
+      "url": "javascript:void(0)",
+      "name": "Users",
+      "i18n": "Users",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "users",
+      "icon": "person",
+      "submenu": [
+
+        {
+          "url": "/admin/users/index",
+          "name": "User List",
+          "i18n": "User List",
+          "slug": "userlist"
+        }
+      ]
+    }
+  ]
+}
